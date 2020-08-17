@@ -1,0 +1,67 @@
+
+
+
+.WrapperFormField{
+
+    position: relative;
+}
+
+
+.textInput{
+    color: #2A2A2A;
+    height: 57px;
+    position: absolute; 
+    top: 0;
+    left: 16px;
+    
+    display: flex;
+    align-items: center;
+    
+    transform-origin: 0% 0%;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    transition: .1s ease-in-out;
+  
+  }
+
+
+
+.input{
+
+  background: #E7E7E7;
+  color: #2A2A2A;
+  display: block;
+  height: 57px;
+  font-size: 18px;
+ 
+  outline: 0;
+  border: 0;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid #53585D;
+  
+  padding: 16px 16px;
+  margin-bottom: 15px;
+  
+  resize: none;
+  border-radius: 4px;
+  transition: border-color .3s;
+ 
+}
+
+.input:not([type='checkbox']){
+    width: 100%;
+    
+  }
+  
+.input:focus {
+    border-bottom-color: #FFCC57;
+  }
+
+.input:focus:not([type='color']):focus:not([type='checkbox']) + .textInput {
+     transform: scale(.6) translateY(-10px);   
+} 
+
+textarea {
+    min-height: 150px;
+}

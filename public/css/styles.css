@@ -1,0 +1,122 @@
+html, body {
+    background-color: #fff;
+    color: #2A2A2A;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+
+.WrapperPage{
+    min-height: 100%;
+    position: relative;
+    padding-top: 94px;
+    
+}
+
+
+
+.full-height {
+    
+    padding-top: 94px;
+    padding-bottom: 32px;
+    height: calc(100vh - 128px);
+    
+}
+
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+   
+    text-align: center;
+}
+
+.title {
+    font-size: 128px;
+    color: #2A2A2A;
+}
+
+
+.links > a {
+ 
+    color: #2A2A2A;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: opacity .3s;
+
+}
+
+.links > a:hover{
+
+    opacity: 0.5;
+
+
+}
+
+@media(max-width: 800px){
+    
+    .title{
+
+        font-size: 74px;
+
+    }
+
+    .links > a {
+
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+}
+
+
+@media(max-width: 800px){
+    
+    .title{
+
+        font-size: 64px;
+
+    }
+
+    .links > a {
+        font-size: 11px;
+        padding-right: 5px;
+        padding-left: 5px;
+
+    }
+
+}
+
+
+
+.linkContainer {
+    
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
