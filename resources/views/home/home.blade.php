@@ -11,7 +11,7 @@
 
 @section('content')
 
-    <div class="flex-center position-ref full-height">
+    <div class="flex-center position-ref">
         <div class="content">
             <div class="title m-b-md">
                 Oficina 2.0
@@ -21,7 +21,9 @@
                 <a class="" href="">Orçamentos</a>
                 <a href="/cadastroOrcamento">Fazer orçamento</a>
             </div>
+
         </div>
+        
     </div>
 
 @endsection
