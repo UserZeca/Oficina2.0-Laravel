@@ -1,11 +1,17 @@
 
 
 
+.WrapperForm{
+
+  padding: 5%;
+
+}
+
+
 .WrapperFormField{
 
     position: relative;
 }
-
 
 .textInput{
     color: #2A2A2A;

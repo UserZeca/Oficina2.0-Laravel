@@ -7,28 +7,33 @@ html, body {
     margin: 0;
 }
 
+.Main{
+   
+    flex: 1;
+
+  
+}
+
+.ContainerMain {
+    
+    height: 100vh;
+    padding: 0;
+}
+
 .WrapperPage{
-    min-height: 100%;
-    position: relative;
-    padding-top: 94px;
-    
+
+    padding-top: 132px;
+    padding-right: 5%;
+    padding-left: 5%;
+    height: 100vh;
 }
-
-
-
-.full-height {
-    
-    padding-top: 94px;
-    padding-bottom: 32px;
-    height: calc(100vh - 128px);
-    
-}
-
 
 .flex-center {
     align-items: center;
     display: flex;
     justify-content: center;
+    height: 100%;
+
 }
 
 .position-ref {
