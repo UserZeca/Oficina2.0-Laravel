@@ -23,12 +23,13 @@
     display: flex;
     align-items: center;
     
+    
     transform-origin: 0% 0%;
     font-size: 18px;
     font-style: normal;
     font-weight: 300;
     transition: .1s ease-in-out;
-  
+
   }
 
 
@@ -52,7 +53,6 @@
   resize: none;
   border-radius: 4px;
   transition: border-color .3s;
- 
 }
 
 .input:not([type='checkbox']){
@@ -64,10 +64,12 @@
     border-bottom-color: #FFCC57;
   }
 
-.input:focus:not([type='color']):focus:not([type='checkbox']) + .textInput {
-     transform: scale(.6) translateY(-10px);   
-} 
+.input + .textInput{
+  transform: scale(.6) translateY(-10px); 
+  font-weight: 900;  
+}
 
 textarea {
     min-height: 150px;
 }
+
