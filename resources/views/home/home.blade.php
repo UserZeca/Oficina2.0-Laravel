@@ -5,7 +5,7 @@
 @section('urlLink1','/')
 @section('nameLink1','Home')
 
-@section('urlLink2', '/')
+@section('urlLink2', '/orcamentos')
 @section('nameLink2', 'Ver Orçamentos');
 
 
@@ -18,7 +18,7 @@
             </div>
 
             <div class="links linkContainer">
-                <a class="" href="">Orçamentos</a>
+                <a href="/orcamentos">Orçamentos</a>
                 <a href="/cadastroOrcamento">Fazer orçamento</a>
             </div>
 

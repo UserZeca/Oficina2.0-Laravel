@@ -5,12 +5,14 @@
 @section('urlLink1','/')
 @section('nameLink1','Home')
 
-@section('urlLink2', '/')
+@section('urlLink2', '/orcamentos')
 @section('nameLink2', 'Ver Orçamentos');
 
 @section('content')
 
     <div class="WrapperPage">   
+
+        <h1>Cadastro de Orçamento</h1>
         <form action="">
             <div class="WrapperFormField">
                 <input class="input" type="text" name="cliente" id="cliente">
