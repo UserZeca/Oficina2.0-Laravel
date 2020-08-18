@@ -18,26 +18,41 @@
             <h4> Filtrar por: </h4>
 
             <div class="WrapperFormField">
-                <input class="input" type="text" name="vendedor" id="vendedor">
+                <input class="input" type="text" name="vendedor" id="vendedor" placeholder="Nome do Vendedor">
                 <label class="textInput" for="cliente">Vendedor</label>
             </div>
 
             <div class="WrapperFormField">
-                <input class="input" type="text" name="cliente" id="cliente">
+                <input class="input" type="text" name="cliente" id="cliente" placeholder="Nome do Cliente">
                 <label class="textInput" for="cliente">Cliente</label>
             </div>
 
+            <!-- Setando a fuso horario, para o de São Paulo -->
+            <?php 
+                date_default_timezone_set('America/Sao_Paulo');
+            ?>
+
             <div class="WrapperFormField">
-                <input class="input" type="date" name="dataMinima" id="dataMinima">
-                <label class="textInput" for="cliente">Data Mínima</label>   
+                <input 
+                    class="input" 
+                    type="date" 
+                    value= <?php echo date('Y-m-d',strtotime('-1 day')) ?>
+                    name="dataMinima" 
+                    id="dataMinima"
+                >
+                <label class="textInput" for="cliente">Data Mínima </label>   
             </div>
 
             <div class="WrapperFormField">
-                <input class="input" type="date" name="dataMaxima" id="dataMaxima">
+                <input 
+                    class="input" 
+                    type="date" 
+                    value= <?php echo date('Y-m-d')?>
+                    name="dataMaxima" 
+                    id="dataMaxima"
+                >
                 <label class="textInput" for="cliente">Data Máxima</label>   
             </div>
-            
-
             
         
         </form>
