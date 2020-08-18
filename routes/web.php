@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/cadastroOrcamento', function () {
     return view('cadastroOrcamento/cadastroOrcamento');
 });
+
+Route::get('/orcamentos', function () {
+    return view('orcamentos/orcamentos');
+});
