@@ -5,7 +5,7 @@
 @section('urlLink1','/')
 @section('nameLink1','Home')
 
-@section('urlLink2', '/orcamentos')
+@section('urlLink2', '/cadastroOrcamento')
 @section('nameLink2', 'Fazer Orçamento');
 
 @section('content')
@@ -54,6 +54,11 @@
                 <label class="textInput" for="cliente">Data Máxima</label>   
             </div>
             
+            <div class="ButtonContainer justifyContentEnd">
+                <button class="submitButton"  type="submit">
+                    Pesquisar
+                </button>
+            </div>
         
         </form>
         

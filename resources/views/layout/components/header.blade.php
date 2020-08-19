@@ -16,8 +16,15 @@
     </div>
 
     <div class="WrapperMenuDropdown">
-        <img src="<?php echo asset('asserts/icons/menuDropDown.svg')?>" alt="">
-        
+           
+        <button class="dropbtn"> 
+            <img src="<?php echo asset('asserts/icons/menuDropDown.svg')?>" alt="">
+        </button>
+
+        <div class="dropContent">
+            <a href=@yield('urlLink1')> @yield('nameLink1')</a>
+            <a href=@yield('urlLink2')> @yield('nameLink2')</a>
+        </div>
      
     
     </div>

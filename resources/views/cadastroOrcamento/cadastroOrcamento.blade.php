@@ -33,6 +33,12 @@
                 <input class="input money" type="text" name="Valor Orçado" id="valorOrcado" placeholder="R$">
                 <label class="textInput" for="cliente">Valor Orçado</label>
             </div>
+
+            <div class="ButtonContainer justifyContentEnd">
+                <button class="submitButton"  type="submit">
+                    Cadastrar
+                </button>
+            </div>
         
         </form>
         
