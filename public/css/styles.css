@@ -22,11 +22,28 @@ html, body {
 
 .WrapperPage{
 
-    padding-top: 132px;
+    margin-top: 132px;
+    margin-bottom: 132px;
     padding-right: 5%;
     padding-left: 5%;
     height: 100vh;
 }
+
+
+@media(max-width: 400px){
+
+    .WrapperPage{
+
+        margin-top: 66px;
+        margin-bottom: 66px;
+
+    }
+
+}
+
+
+
+
 
 .flex-center {
     align-items: center;
@@ -77,29 +94,12 @@ html, body {
 
 }
 
-@media(max-width: 800px){
-    
-    .title{
-
-        font-size: 74px;
-
-    }
-
-    .links > a {
-
-        padding-right: 5px;
-        padding-left: 5px;
-    }
-
-}
 
 
 @media(max-width: 800px){
     
     .title{
-
         font-size: 64px;
-
     }
 
     .links > a {

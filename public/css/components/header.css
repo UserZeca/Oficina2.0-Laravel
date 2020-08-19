@@ -52,7 +52,7 @@ button{
     cursor: pointer;
     text-decoration: none;
     transition: opacity .3s;
-    z-index: 1;
+    z-index: 2;
 
 }
 
@@ -72,18 +72,40 @@ button{
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px red;
     z-index: 1;
-
+    border: none;
 }
 
 .WrapperMenuDropdown {
     position: relative;
     display: none;
+    width: 100px;
+}
+
+.dropbtn{
     width: 30px;
     padding: 5px;
     margin: 0;
+    background-color: inherit;
+    margin-left: 70px;
+}
 
+.dropContent{
+
+   display: none;
+   position: absolute;
+   min-width: 100px;
+   border: none;
+   z-index: 1;
+   background-color: #FFCC57;
+}
+
+.dropContent  a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+    
 }
 
 
@@ -99,8 +121,12 @@ button{
 
     .WrapperMenuDropdown {
         display: inline-block;
+        background-color: inherit;
 
     }
 
+
+
+    
 
 }

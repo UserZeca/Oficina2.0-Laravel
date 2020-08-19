@@ -1,6 +1,4 @@
 
-
-
 .WrapperForm{
 
   padding: 5%;
@@ -14,44 +12,45 @@
 }
 
 .textInput{
-    color: #2A2A2A;
-    height: 57px;
-    position: absolute; 
-    top: 0;
-    left: 16px;
-    
-    display: flex;
+  
     align-items: center;
-    
-    
-    transform-origin: 0% 0%;
+    color: #2A2A2A;
+    display: flex;
     font-size: 18px;
     font-style: normal;
     font-weight: 300;
+  
+    height: 57px;
+    left: 16px;
+    position: absolute; 
+    top: 0;
+    
+    
+    
+    transform-origin: 0% 0%;
     transition: .1s ease-in-out;
 
   }
 
 
-
 .input{
 
   background: #E7E7E7;
+  border: 0;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid #53585D;
+  border-radius: 4px;
+  
   color: #2A2A2A;
   display: block;
   height: 57px;
   font-size: 18px;
  
-  outline: 0;
-  border: 0;
-  border-top: 4px solid transparent;
-  border-bottom: 4px solid #53585D;
-  
-  padding: 16px 16px;
   margin-bottom: 15px;
+  outline: 0;
+  padding: 16px 16px;
   
   resize: none;
-  border-radius: 4px;
   transition: border-color .3s;
 }
 
@@ -65,11 +64,42 @@
   }
 
 .input + .textInput{
-  transform: scale(.6) translateY(-10px); 
   font-weight: 900;  
+  transform: scale(.6) translateY(-10px); 
 }
 
 textarea {
     min-height: 150px;
 }
 
+.submitButton{
+
+  border: 4px solid transparent;
+  border-bottom-color: #FFCC57; 
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #2A2A2A;
+  cursor: pointer;
+  display: flex;
+  padding: 10px;
+  text-decoration: none;
+  transition: opacity .3s;
+
+}
+
+.submitButton:hover{
+  opacity: .6;
+  
+}
+
+.ButtonContainer{
+
+  display: flex;
+  width: 100%;
+
+}
+
+.justifyContentEnd{
+    justify-content: flex-end;
+
+}
